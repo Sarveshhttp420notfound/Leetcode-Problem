@@ -4,7 +4,7 @@ class Solution {
 
         for(int i=0;i<nums.length;i++){
             if(nums[i]<=0||nums[i]>n){
-                nums[i]=n+1;
+                nums[i]=n+1;//suppose 4 make 5
             }
         }
 
